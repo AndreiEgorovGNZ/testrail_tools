@@ -1,0 +1,26 @@
+{
+  "name": "testrail_tools",
+  "version": "1.0.0",
+  "description": "Save time by calling your testrail account api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "main": "node src/index.js",
+    "parse":"node src/parser.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreiEgorovGNZ/testrail_tools.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreiEgorovGNZ/testrail_tools/issues"
+  },
+  "homepage": "https://github.com/AndreiEgorovGNZ/testrail_tools#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "path": "^0.12.7",
+    "testrail-api": "^1.3.6"
+  }
+}

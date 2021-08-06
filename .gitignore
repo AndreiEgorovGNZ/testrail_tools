@@ -1,0 +1,42 @@
+# Ignore visible secrets that are used for encrypting values
+visible-secrets.yaml
+
+# Ignore temporary files
+tmp/
+*.tfstate.backup
+
+# Ignore plug-ins and modules installed by Terraform
+**/.terraform/**
+.terraform.tfstate.lock.info
+
+# Ignore Terraform tfstate files
+terraform.tfstate*
+*.tfstate
+
+# Ignore local override .env files
+.env.development.local
+.env.test.local
+.env
+output.json
+addedCases.json
+
+# Ignore api system tests env test file
+test.env.json
+
+*.pem
+id_rsa
+
+# Ignore intermediate folder/files
+.DS_Store
+
+# Ignore TypeScript intermediates
+tsconfig.tsbuildinfo
+tsconfig.build.tsbuildinfo
+
+node_modules/
+yarn-error.log
+dist/
+dist.zip
+
+# local development
+.vscode/
