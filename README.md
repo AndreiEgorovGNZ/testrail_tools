@@ -13,7 +13,7 @@ To use it you need:
 * fill up .env file with variables: 
 `
     TESTRAIL_USER_EMAIL=my_testrail_account@wegalvanize.com
-    TESTRAIL_TOKEN=qm/l.4C1K0yorpJFgLTy-ppEgAZKL/Mb05yM3pzBB
+    TESTRAIL_TOKEN=qm/la2sds42fFgLT455sy-ppEgAZKL/a5yM3pz56BB
     TESTRAIL_HOST=https://galvanize.testrail.com
     TEST_RAIL_PROJECT_NAME=Transactional Workflow
     TESTRAIL_SECTION_ID=454
